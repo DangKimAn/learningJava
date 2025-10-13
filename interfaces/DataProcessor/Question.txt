@@ -1,0 +1,13 @@
+Tạo một interface có tên là DataProcessor (Bộ xử lý dữ liệu).
+
+Interface này phải có hai phương thức:
+
+Một phương thức trừu tượng: process(String data).
+
+Một phương thức default: logTime(). Phương thức này sẽ in ra thời gian hiện tại (System.currentTimeMillis()) hoặc một thông báo chung như "Logging timestamp...".
+
+Tạo lớp DatabaseProcessor implements DataProcessor.
+
+Lớp này chỉ cần triển khai phương thức process(), in ra "Processing data for database: [data]".
+
+Trong main, tạo một đối tượng DatabaseProcessor và gọi cả hai phương thức process() và logTime().

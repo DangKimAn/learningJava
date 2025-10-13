@@ -1,0 +1,13 @@
+Định nghĩa một interface có tên là Printable (có khả năng in).
+
+Interface này nên có một phương thức trừu tượng: printDetails() (in chi tiết).
+
+Tạo hai lớp khác nhau là Book (Sách) và Invoice (Hóa đơn), cả hai đều implements Printable.
+
+Mỗi lớp phải triển khai phương thức printDetails() theo cách riêng của mình:
+
+Book: In ra thông tin "In Sách: [Tiêu đề sách]"
+
+Invoice: In ra thông tin "In Hóa đơn: [Số hóa đơn]"
+
+Trong phương thức main, tạo một mảng chứa cả đối tượng Book và Invoice, sau đó lặp qua mảng và gọi printDetails() cho từng đối tượng.

@@ -1,0 +1,11 @@
+Tạo một enum có tên là Operation để biểu diễn các phép toán cơ bản.
+
+Mỗi phép toán cần có một hành vi tính toán riêng biệt.
+
+Cấu trúc Enum:
+
+Định nghĩa một phương thức trừu tượng (abstract method) trong Enum: abstract double apply(double x, double y);.
+
+Các hằng số: ADD, SUBTRACT, MULTIPLY, DIVIDE.
+
+Mỗi hằng số Enum phải triển khai phương thức apply() ngay tại chỗ để thực hiện phép toán tương ứng (ADD thì trả về x + y, v.v.).

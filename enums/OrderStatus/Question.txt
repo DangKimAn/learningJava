@@ -1,0 +1,9 @@
+Tạo một enum có tên là OrderStatus để đại diện cho các trạng thái có thể có của một đơn hàng.
+
+Các hằng số (hằng) cần có là: PENDING, PROCESSING, SHIPPED, DELIVERED, CANCELLED.
+
+Trong phương thức main, thực hiện:
+
+Khai báo một biến kiểu OrderStatus và gán giá trị PROCESSING.
+
+Sử dụng lệnh switch với biến này để in ra một thông báo mô tả hành động tiếp theo cho mỗi trạng thái. (Ví dụ: nếu là PENDING thì in ra "Waiting for payment verification...").

@@ -1,0 +1,15 @@
+Tạo một enum có tên là Coin để đại diện cho các loại tiền xu.
+
+Mỗi hằng số tiền xu cần có một giá trị số nguyên (value) liên quan đến nó.
+
+Các hằng số: PENNY (1), NICKEL (5), DIME (10), QUARTER (25).
+
+Cấu trúc Enum:
+
+Thêm một biến final int value;
+
+Thêm một constructor private để khởi tạo biến value khi định nghĩa các hằng số.
+
+Thêm một phương thức getValue() để lấy giá trị số.
+
+Trong phương thức main, tính tổng giá trị của một vài đồng xu: PENNY, DIME, QUARTER.

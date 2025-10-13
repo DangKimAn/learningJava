@@ -1,0 +1,29 @@
+Định nghĩa hai interface:
+
+Flyable (Có khả năng bay): Có phương thức trừu tượng fly().
+
+Swimmable (Có khả năng bơi): Có phương thức trừu tượng swim().
+
+Tạo hai lớp:
+
+Duck (Vịt): implements Flyable, Swimmable.
+
+Airplane (Máy bay): implements Flyable (chỉ có khả năng bay).
+
+Triển khai các phương thức:
+
+Duck.fly(): In ra "Duck is flapping wings and flying."
+
+Duck.swim(): In ra "Duck is paddling and swimming."
+
+Airplane.fly(): In ra "Airplane is soaring high."
+
+Trong phương thức main, thực hiện tính đa hình:
+
+Tạo một mảng/danh sách kiểu Flyable.
+
+Thêm cả đối tượng Duck và Airplane vào danh sách này.
+
+Lặp qua danh sách và gọi phương thức fly() cho từng đối tượng.
+
+Thử thách bổ sung: Kiểm tra xem đối tượng có phải là Swimmable không (dùng instanceof), nếu phải thì gọi thêm phương thức swim().
