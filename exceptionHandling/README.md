@@ -40,21 +40,25 @@ Thường được dùng để thực hiện các công việc dọn dẹp (clea
 
 Nó không xử lý ngoại lệ; nó chỉ chuyển trách nhiệm xử lý sang phương thức gọi nó (caller).
 
-'''Java
+```java 
+```
 // Phương thức này không xử lý IOException, mà khai báo rằng nó sẽ ném ra
 public void processData() throws IOException, SQLException {
     // ... code có thể ném ngoại lệ
 }
-'''
+```
+```
 
     2. throw:
 Được sử dụng để ném (raise) một thể hiện ngoại lệ (exception object) một cách rõ ràng trong code.
 
 Thường được dùng để tạo và ném các ngoại lệ tùy chỉnh hoặc để ném lại một ngoại lệ sau khi xử lý một phần.
 
-'''Java
+```java 
+```
 if (age < 0) {
     // Tự tạo và ném ngoại lệ
     throw new IllegalArgumentException("Tuổi không thể là số âm.");
 }
-'''
+```
+```

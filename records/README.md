@@ -9,9 +9,7 @@ public record Points(int x , int y ){
 
 }
 ```
-```
 = 
-```
 ```java
 public class Points (int x , int y)
 { 
