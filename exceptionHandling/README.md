@@ -18,7 +18,10 @@ Exception: Đại diện cho các vấn đề ứng dụng có thể và nên đ
 
 2. Cơ chế Xử lý Ngoại lệ (try-catch-finally)
 
-      1. Khối try:
+
+     ``` 
+     1. Khối try:
+      
 Chứa đoạn mã có khả năng ném ra ngoại lệ.
 
 Nếu ngoại lệ xảy ra trong khối try, việc thực thi sẽ ngay lập tức chuyển sang khối catch phù hợp.
@@ -34,7 +37,8 @@ Chứa đoạn mã luôn luôn được thực thi, bất kể ngoại lệ có 
 Thường được dùng để thực hiện các công việc dọn dẹp (cleanup), như đóng kết nối cơ sở dữ liệu hoặc đóng luồng file.
 
 3. Các Từ khóa Khác
-
+```
+```
     1. throws:
 Được sử dụng trong chữ ký của phương thức để khai báo rằng phương thức đó có thể ném ra một hoặc nhiều loại Checked Exceptions.
 
