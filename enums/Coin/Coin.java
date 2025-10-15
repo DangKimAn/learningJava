@@ -13,7 +13,7 @@ public enum Coin {
   }
 
 
-  public int getValue()
+public int getValue()
   {
     return this.value;
   }
