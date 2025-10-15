@@ -3,8 +3,8 @@ Records trong Java là gì?
 Record là một loại lớp đặc biệt (special kind of class) trong Java, được thiết kế để tạo ra các lớp chứa dữ liệu thuần túy (plain data carriers). Mục đích chính của Record là giảm thiểu tối đa lượng mã lặp đi lặp lại (boilerplate code) mà lập trình viên phải viết khi tạo các lớp dùng để lưu trữ dữ liệu (ví dụ: các lớp POJO - Plain Old Java Object hoặc Value Objects).
 
 # cu phap khai bao co ban 
-```
-```Java
+
+```java
 public record Points(int x , int y ){
 
 }
@@ -12,8 +12,7 @@ public record Points(int x , int y ){
 ```
 = 
 ```
-```
-```Java
+```java
 public class Points (int x , int y)
 { 
   private final int x ;
@@ -53,7 +52,7 @@ mot record mac dinh la khong the ke thua bat ki lop nao khac
 mot record khong the duoc ke thua bat ki mot lop nao khac.
 
 
-```Java
+```java
 record Person(String name, int age) {}
 
 Person p1 = new Person("Alice", 30);
@@ -66,7 +65,7 @@ Person p3 = new Person("Bob", 25);
 
 
 
-```Java
+```java
 
 record Person(String name, int age) {}
 Person p1 = new Person("Alice", 30);
