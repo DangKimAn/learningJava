@@ -1,0 +1,11 @@
+Viết một đoạn code mô phỏng việc đọc dữ liệu từ một file (bạn không cần phải thực sự tạo file, chỉ cần mô phỏng).
+
+Yêu cầu:
+
+Khai báo một biến FileReader reader (giả sử nó được khởi tạo).
+
+Sử dụng khối try-catch-finally.
+
+Trong khối try, giả sử một ngoại lệ (IOException) có thể xảy ra.
+
+Trong khối finally, đảm bảo rằng reader được "đóng" (reader.close()), ngay cả khi có lỗi xảy ra trong khối try. In ra thông báo "Tài nguyên đã được đóng." trong finally.

@@ -21,7 +21,7 @@ Exception: Đại diện cho các vấn đề ứng dụng có thể và nên đ
 
      ``` 
      1. Khối try:
-      
+      ```
 Chứa đoạn mã có khả năng ném ra ngoại lệ.
 
 Nếu ngoại lệ xảy ra trong khối try, việc thực thi sẽ ngay lập tức chuyển sang khối catch phù hợp.
@@ -38,8 +38,8 @@ Thường được dùng để thực hiện các công việc dọn dẹp (clea
 
 3. Các Từ khóa Khác
 ```
-```
     1. throws:
+```
 Được sử dụng trong chữ ký của phương thức để khai báo rằng phương thức đó có thể ném ra một hoặc nhiều loại Checked Exceptions.
 
 Nó không xử lý ngoại lệ; nó chỉ chuyển trách nhiệm xử lý sang phương thức gọi nó (caller).
@@ -62,5 +62,4 @@ if (age < 0) {
     // Tự tạo và ném ngoại lệ
     throw new IllegalArgumentException("Tuổi không thể là số âm.");
 }
-```
 ```

@@ -1,0 +1,7 @@
+Tạo một phương thức tinhCanBacHai(double so) trả về căn bậc hai của một số.
+
+Yêu cầu:
+
+Phương thức này phải throw một IllegalArgumentException nếu số đầu vào là âm (vì căn bậc hai của số âm không phải là số thực).
+
+Trong phương thức main, gọi tinhCanBacHai() với một số âm và sử dụng try-catch để bắt ngoại lệ IllegalArgumentException đó, in ra thông báo lỗi.

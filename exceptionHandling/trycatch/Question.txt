@@ -1,0 +1,10 @@
+Bài tập 1: Xử lý ngoại lệ Chia cho Không (ArithmeticException)
+Viết một chương trình Java thực hiện phép chia hai số nguyên. Yêu cầu người dùng nhập hai số, sau đó sử dụng khối try-catch để xử lý trường hợp số thứ hai là 0 (dẫn đến ArithmeticException).
+
+Yêu cầu:
+
+Sử dụng Scanner để lấy input từ người dùng.
+
+In ra kết quả phép chia nếu thành công.
+
+Trong khối catch, in ra một thông báo thân thiện (ví dụ: "Lỗi: Không thể chia cho 0.") thay vì stack trace mặc định.
