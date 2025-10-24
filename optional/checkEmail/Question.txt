@@ -1,0 +1,8 @@
+Mô tả:
+Nhập vào một email, chỉ in ra nếu email kết thúc bằng @gmail.com.
+
+Yêu cầu:
+
+Dùng Optional.filter()
+
+Nếu không hợp lệ → in "Email không hợp lệ"

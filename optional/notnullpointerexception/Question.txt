@@ -1,0 +1,10 @@
+🧩 Bài 1: Optional tránh NullPointerException
+
+Mô tả:
+Viết một chương trình nhập vào tên người dùng (có thể là null), sau đó in ra tên viết hoa.
+
+Yêu cầu:
+
+Nếu tên khác null, in ra tên viết hoa.
+
+Nếu tên là null, in ra "Không có tên".

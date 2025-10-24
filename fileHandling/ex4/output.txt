@@ -1,0 +1,13 @@
+1 an
+2 hoang
+3 thanh
+4 phong
+5 the 
+6 tam
+7 long
+8 thuan 
+9 truong
+10 huyen
+11 duyen
+12 exit
+13 
